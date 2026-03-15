@@ -1,0 +1,18 @@
+2026.03.15 20:24:57,396	WARNING	3	org.l2jmobius.commons.util.ConfigReader	Config 'LoginHostname' not found in file 'Server.ini', using default: 127.0.0.1.
+2026.03.15 20:24:57,447	WARNING	3	org.l2jmobius.commons.util.ConfigReader	Config 'LoginserverHostname' not found in file 'Server.ini', using default: 0.0.0.0.
+2026.03.15 20:24:57,450	WARNING	3	org.l2jmobius.commons.util.ConfigReader	Config 'LoginserverPort' not found in file 'Server.ini', using default: 2106.
+2026.03.15 20:24:57,684	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
+2026.03.15 20:24:57,900	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
+2026.03.15 20:24:57,912	INFO	3	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initializing.
+2026.03.15 20:24:57,925	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 2 total threads.
+2026.03.15 20:24:57,926	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 2 total threads.
+2026.03.15 20:24:57,927	INFO	3	org.l2jmobius.loginserver.LoginController	Loading LoginController...
+2026.03.15 20:24:58,228	INFO	3	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
+2026.03.15 20:24:58,244	INFO	3	org.l2jmobius.loginserver.LoginController	Stored 20 keys for Blowfish communication.
+2026.03.15 20:24:58,251	WARNING	3	org.l2jmobius.commons.util.IXmlReader	Cannot parse servername.xml: file does not exist or is not valid.
+2026.03.15 20:24:58,251	INFO	3	org.l2jmobius.loginserver.GameServerTable	Loaded 0 server names.
+2026.03.15 20:24:58,271	INFO	3	org.l2jmobius.loginserver.GameServerTable	Loaded 1 registered Game Servers.
+2026.03.15 20:24:58,309	INFO	3	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2026.03.15 20:24:58,310	WARNING	3	org.l2jmobius.loginserver.LoginServer	IP Bans file (banned_ip.cfg) is missing or is a directory, skipped.
+2026.03.15 20:24:58,311	INFO	3	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 127.0.0.1:9014
+2026.03.15 20:24:58,328	INFO	3	org.l2jmobius.loginserver.LoginServer	LoginServer: is now listening on: 0.0.0.0:2106
